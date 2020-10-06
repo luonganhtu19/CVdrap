@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CV</title>
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('textInput').value=val;
+        // document.registrationForm.ageInputId.oninput = function(){
+        //     document.registrationForm.ageOutputId.value = document.registrationForm.ageInputId.value;
+        }
+        function updateTextInput1(val) {
+            document.getElementById('textInput1').value=val;
+            // document.registrationForm.ageInputId.oninput = function(){
+            //     document.registrationForm.ageOutputId.value = document.registrationForm.ageInputId.value;
+        }
+        function updateTextInput2(val) {
+            document.getElementById('textInput2').value=val;
+            // document.registrationForm.ageInputId.oninput = function(){
+            //     document.registrationForm.ageOutputId.value = document.registrationForm.ageInputId.value;
+        }
+    </script>
+</head>
+<style>
+    td{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        font-size: 18px;
+        font-family: "Times New Roman";
+        border: none;
+    }
+    #css1{
+        width: 70%;
+        overflow: hidden;
+        padding: 50px 0 0 0;
+
+    }
+    /*#anhtu{*/
+    /*    font-size: 18px;*/
+    /*    font-family: "Times New Roman";*/
+    /*}*/
+    table{
+        width:  800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<body>
+<!--border="1px solid black"-->
+<table border="1px solid black"style="overflow: hidden" >
+    <tr>
+        <td style="margin-left: 10px">
+            <P style="margin-bottom: 5px;font-size: 32px;margin-top: 5px"><B> LƯƠNG ANH TÚ</B></P>
+
+            <p style="margin-top: 5px;margin-bottom: 5px">Kỹ Sư Viễn Thông</p>
+            Ngày sinh: 15-05-1995<br>
+            Giới tính: Nam<br>
+            Điện thoại: 0339702973 <br>
+            Email: luonganhtu1995@gmail.com <br>
+            Địa chỉ: Triều Khúc, Hà Nội <br>
+        </td>
+        <br>
+        <td >
+<!--            <img src="img/avata.jpg" >-->
+
+            <img src="img/itachi.jpg" id="css1"/></td>
+    </tr>
+    <tr>
+        <td colspan="2" >
+            <B>MỤC TIÊU NGHỀ NGHIỆP</B>
+            <hr>
+            - Mong muốn có kinh nghiệm ở môi trường làm việc chuyên nghiệp. <br>
+            - Có cơ hội thăng tiến cao, thành công trong công việc.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <B style="font-size: 20px">HỌC VẤN</B>
+            <hr>
+            <P align="left" style="margin-bottom: 2px">2013-2019: &emsp;  Đại Học Bách Khoa Hà Nội <br></P>
+            <p style="margin-left: 110px;margin-top: 2px" > Chuyên Ngành: Điện tử viễn thông <br> Bằng cấp: Chính quy
+                <br> Loại: Khá.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <B style="font-size: 20px">KINH NGHIỆM LÀM VIỆC</B><hr>
+            <P >2019-2020: &emsp; <b> SamSung R&D </b> <br> Chuyên viên kiểm thử Network</P>
+            <p style="margin-top: 2px;margin-left: 110px"><b>Mô tả</b> <br>
+                - Chuyên viên kiểm thử các thiết bị mạng 4G, 5G. <br>
+                - Mannual test: Attach, detach; HO, PING PONG.... <br>
+                <b>Thành tích đạt được</b> <br>
+                - Hoàn thành nhiệm vụ được giao
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <B STYLE="font-size: 20px">SỞ THÍCH</B>
+            <hr>
+            Du lịch, đá bóng, chơi game.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <B style="font-size: 20px">KỸ NĂNG CÁ NHÂN</B>
+            <hr>
+            Tiếng Anh: &emsp; &emsp;&ensp;&nbsp;   <input type="range" name="socre"  value="50" min="0" max="100" onchange="updateTextInput(this.value);">
+            <input  type="text" id="textInput" value="50" style="border: none">
+            <br>
+            Tin học văn phòng:  <input type="range" name="score" value="50" min="0" max="100" onchange="updateTextInput1(this.value);">
+            <input  type="text" id="textInput1" value="50" style="border: none">
+            <br>
+            Java:  &emsp; &emsp; &emsp;   &emsp;  &ensp;           <input type="range" name="score"  value="50" min="0" max="100" onchange="updateTextInput2(this.value);">
+            <input  type="text" id="textInput2" value="50" style="border: none">
+            <br>
+
+            <br>
+<!--            <input type="range" name="rangeInput" min="0" max="100" onchange="updateTextInput(this.value);">-->
+<!--            <input type="text" id="textInput" value="">-->
+        </td>
+    </tr>
+</table>
+</body>
+</html>
